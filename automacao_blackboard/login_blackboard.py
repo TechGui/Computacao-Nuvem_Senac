@@ -71,6 +71,9 @@ cadeiras = {
     5: 'Automação e Programabilidade em Redes'
 }
 
+# Limpa a barra de pesquisa após selecionada na etapa anterior à cadeiras
+campoPesquisa.clear()
+
 # Recebe o primeiro nome da cadeira para pesquisar
 primeiro_nome_cadeira = cadeiras[cadeira].split()[0]
 
